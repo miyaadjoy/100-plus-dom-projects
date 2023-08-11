@@ -7,7 +7,7 @@
 const root = document.querySelector('#root');
 const changeColorButton = document.querySelector('#change-btn');
 const output = document.querySelector('#output');
-// step 2 - random color generator function
+
 const createRandomNumbers = (min, max) => {
   const randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
   return randomNumber.toString(16);
