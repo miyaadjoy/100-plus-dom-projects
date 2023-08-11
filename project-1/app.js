@@ -31,7 +31,7 @@ autoChangeButton.addEventListener('click', () => {
     colorText.textContent = bgColor;
     autoChangeButton.style.display = 'none';
     autoStopButton.style.display = 'block';
-  }, 100);
+  }, 1000);
   autoStopButton.addEventListener('click', () => {
     autoStopButton.style.display = 'none';
     autoChangeButton.style.display = 'block';
