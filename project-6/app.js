@@ -100,7 +100,10 @@ toastMessage.addEventListener('click', toastMessageDisappear);
 //keyup event on color input
 output.addEventListener('keyup', e => {
   const color = e.target.value;
-  if (isValidHex(color)) changeBackgroundColor('#' + color);
+  if (color) {
+    if (isValidHex(color)) changeBackgroundColor('#' + color);
+    output.value = color.toUpperCase();
+  }
 });
 
 /*
