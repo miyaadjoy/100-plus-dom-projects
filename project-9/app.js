@@ -3,6 +3,7 @@
  * Author: Miyaad J
  * Description: Color picker application with huge dom functionalities
  */
+
 const randomColorBtn = document.querySelector('#generate-random-color');
 const colorDisplay = document.querySelector('#color-display');
 const outputRGB = document.querySelector('#input-rgb');
